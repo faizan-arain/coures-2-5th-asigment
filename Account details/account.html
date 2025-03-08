@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account detials</title>
+    <style>
+
+        ul{
+            display: flex;
+            justify-content: center;        }
+        ul li{
+            list-style: none;
+        }
+        ul li a{
+            text-decoration: none;
+            padding: 10px 25px;
+            color: rgb(8, 8, 8);
+        }
+        ul li a:hover{
+            background-color: antiquewhite;
+            color: black;
+            border-radius: 20px;
+        }
+
+        .main-container{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            padding-left: 20px;
+        }
+        .main-container form{
+            padding: 50px;
+        }
+        .main-container input{
+            width: 300px;
+        }
+
+        .main-container a img{
+            width: 100px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#">Account detials</a></li>
+        <li><a href="../Personal details/personal.html">Personal detials</a></li>
+        <li><a href="../Your Review/Review.html">Review section</a></li>
+    </ul>
+    <div class="main-container">
+<fieldset>
+    <legend>Account</legend>
+    <form >
+        <label>
+            Email Address: <br>
+            <input type="text" placeholder="Enter Email">
+        </label><br><br>
+        <label>
+            Password: <br>
+            <input type="password" placeholder="Enter Password">
+        </label><br><br>
+        <label>
+            Conform Password: <br>
+            <input type="password" placeholder="Conform password">
+        </label><br><br>
+        <a href="../index.html"><img src="../images/back.png" alt="abcd"></a>
+        <a href="../Personal details/personal.html"><img src="../images/next.png" alt="abcd"></a>
+    </form>
+</fieldset>
+
+</div>
+</body>
+</html>

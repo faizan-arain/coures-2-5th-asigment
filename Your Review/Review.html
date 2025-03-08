@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account detials</title>
+    <style>
+
+        ul{
+            display: flex;
+            justify-content: center;        }
+        ul li{
+            list-style: none;
+        }
+        ul li a{
+            text-decoration: none;
+            padding: 10px 25px;
+            color: rgb(8, 8, 8);
+        }
+        ul li a:hover{
+            background-color: antiquewhite;
+            color: black;
+            border-radius: 20px;
+        }
+
+        .main-container{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            padding-left: 20px;
+        }
+        .main-container form{
+            padding: 50px;
+        }
+
+        .main-container .button-1 a{
+            width: 100px;
+            height: 30px;
+            text-decoration: none;
+            color: black;
+        }
+        .main-container .button-2 a{
+            width: 100px;
+            height: 30px;
+            text-decoration: none;
+            color: black;
+        }
+        
+        .main-container .button-2 {
+            border: none;
+            background-color: aliceblue;
+        }
+
+        /* .main-container  a .button-3 img{
+            width: 100px;
+            height: 30px;
+        }
+        .main-container  a .button-4 img{
+            width: 100px;
+            height: 30px;
+        } */
+         /* .main-container a button{
+            width: 100px;
+            height: 30px;
+         } */
+         .main-container a  img{
+            width: 100px;
+            height: 30px;
+         }
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="../Account details/account.html">Account detials</a></li>
+        <li><a href="../Personal details/personal.html">Personal detials</a></li>
+        <li><a href="#">Review section</a></li>
+    </ul>
+    <div class="main-container">
+<fieldset>
+    <legend>Your Review</legend>
+    <form >
+        <label>
+            Where are you live?
+            <select >
+                <option value="">India</option>
+                <option value="">Europ</option>
+                <option value="">Chaina</option>
+                <option value="">Japan</option>
+                <option value="">Pakidtan</option>
+
+            </select>
+        </label><br><br>
+        <label>
+            Would you vivit again?
+            <input type="radio" name="Yes">Yes
+            <input type="radio" name="Yes">No 
+            <input type="radio" name="Yes">Maybe
+
+        </label><br><br>
+        <label>
+            Comments: <br>
+            <textarea cols="30" rows="5"></textarea>
+        </label><br><br>
+        Documents: <br>
+        <button class="button-1"><a href="">Chooesfile</a></button>
+        <button class="button-2"><a href="">No file chosen</a></button>
+    </label><br><br>
+
+    <label>
+        <input type="checkbox">Sign me up for email updates
+    </label><br><br>
+
+    <a href="../Personal details/personal.html"><img src="../images/back.png" alt="abcd"></a>
+    <a href="../index.html"><img src="../images/submit.png" alt="abcd"></a>
+    </form>
+</fieldset>
+
+</div>
+</body>
+</html>
